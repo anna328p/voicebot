@@ -6,7 +6,7 @@
 # quality. If you want something better you can replace the files in the data/ directory. Make sure to execute this
 # example from the appropriate place, so that it has access to the files in that directory.
 
-TOKEN = 'NTI1MDk3NjU1NDcxMTc3NzU5.XLP-jA.74E8oox2DO7yiS855um3SYdAMMo'
+TOKEN = ENV['DISCORD_TOKEN']
 
 require 'discordrb'
 
